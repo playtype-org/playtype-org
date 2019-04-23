@@ -1,0 +1,41 @@
+baseURL = "www.playtype.org"
+languageCode = "en-gb"
+title = "Playtype : open source code labs"
+themesDir = "themes"
+theme = "hugo-whisper-theme"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Labs"
+    url = "/labs/"
+    weight = 2
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/labs'
+  homepage_button_text = 'View the labs'
+  homepage_intro = 'Playtype : open source code labs. Built with Hugo.'
+  homepage_image = '/images/terminal.gif'
+
+  [params.homepage_meta_tags]
+    meta_description = "Playtype : open source code labs. Built with Hugo."
+    meta_og_title = "Playtype : open source code labs"
+    meta_og_type = "website"
+    meta_og_url = "https://www.playtype.org"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_description = "Playtype : open source code labs. Built with Hugo."
+    meta_twitter_card = ""
+    meta_twitter_site = ""
+    meta_twitter_creator = ""
+
+  [params.logo]
+      mobile = "/images/logo-mobile.svg"
+      standard  = "/images/logo.svg"

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Labs overview on Playtype : open source code labs</title>
+    <link>www.playtype.org/labs/</link>
+    <description>Recent content in Labs overview on Playtype : open source code labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate>
+    
+	<atom:link href="www.playtype.org/labs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting started with Git</title>
+      <link>www.playtype.org/labs/intro/git-intro/</link>
+      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      
+      <guid>www.playtype.org/labs/intro/git-intro/</guid>
+      <description>Git is a source control system.
+Quickstart First download Git for your system
+apt-get install git Cloning a repo First, create and move to an empty directory
+mkdir code cd code Next, clone a repo</description>
+    </item>
+    
+  </channel>
+</rss>
